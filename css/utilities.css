@@ -1,0 +1,27 @@
+.neomorphic{
+    /* border-radius: 50px; */
+    background: var(--segundo);
+    box-shadow:  10px 10px 20px var(--primero), 
+                -10px -10px 20px var(--segundo);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
