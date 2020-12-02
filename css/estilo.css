@@ -1,0 +1,94 @@
+@import 'utilities.css';
+@import 'sideBarLogo.css';
+@import 'sideBarNav.css';
+@import 'mainHeader.css';
+
+
+:root{
+    --bodyBG:#cec7d6;
+    --darkBG:#564563;
+    --lightBG:#f2f0f7;
+    --headerBG: #e8eff5;
+    
+    --logoBG:#3148ae;
+    --logoHoverBG:#5372e8;
+    --segundo:#8e80b0;
+    --tercero:#b8b5b3;
+    --quinto:#5372e8;
+    --sexto:#6f8ca1;
+    --blueBG: #37c3cd;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background:var(--lightBG);
+    /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+}
+
+h1{
+    color: var(--lightBG);
+    text-align: center;
+    font-weight: 50;
+    margin-top: 1rem;
+}
+
+/* CONTAINER */
+.container{
+    margin: 40px;
+    width: 94%;
+    height: 90%;
+    position: fixed;
+    display:grid; 
+    grid-gap:0; /* margenes internos en los grid */
+    grid-template-columns: repeat(10,1fr); /* definir columans */
+    grid-template-rows: repeat(5, auto); /* definir filas */
+
+    grid-template-areas:"side-bar aside aside  main main main main main main main"
+                        "side-bar aside aside  main main main main main main main"
+                        "side-bar aside aside  main main main main main main main"
+                        "side-bar aside aside  main main main main main main main"
+                        "side-bar aside aside  main main main main main main main";
+                        
+}
+
+.header,
+.side-bar,
+.aside,
+.main,
+.footer{
+    text-align: center;
+}
+
+/* HEADER */
+.container .header{
+    background: var(--lightBG);
+    height: 40%;
+    padding-top: 50px;
+}
+
+
+/* ASIDE */
+.container .aside{
+    grid-area: aside;
+    background: var(--darkBG);
+}
+
+/* MAIN */
+.container .main{
+    grid-area: main;
+}
+
+
+
+

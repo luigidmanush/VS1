@@ -1,0 +1,40 @@
+/* LOGO */
+.container .side-bar .logo{
+    background: var(--logoBG);    
+}
+
+.container .side-bar .logo img{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin:  1rem .5rem 1rem .5rem;
+    
+}
+
+.container .side-bar .logo a img{
+    background:var(--logo);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius:100%;
+    transition: all .3s ease;
+    -webkit-transition:  all .3s ease;
+    -moz-transition:  all .3s ease;
+    -ms-transition:  all .3s ease;
+    -o-transition:  all .3s ease;
+}
+
+.container .side-bar .logo a:hover img{
+    background:var(--logoHoverBG);
+    border-radius: 80%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius:50%;
+    transition: all .3s ease;
+    -webkit-transition:  all .3s ease;
+    -moz-transition:  all .3s ease;
+    -ms-transition:  all .3s ease;
+    -o-transition:  all .3s ease
+}

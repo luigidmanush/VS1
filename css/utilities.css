@@ -1,8 +1,10 @@
 .neomorphic{
     /* border-radius: 50px; */
-    background: var(--segundo);
-    box-shadow:  10px 10px 20px var(--primero), 
-                -10px -10px 20px var(--segundo);
+    background: var(--ligthBG);
+    box-shadow:  8px 8px 50px var(--darkBG), 
+                -8px -8px 50px var(--segundo);
+    border-radius: .9rem; 
+
 }
 
 .flex{

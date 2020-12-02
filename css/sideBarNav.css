@@ -1,0 +1,48 @@
+/* SIDEBAR */
+.container .side-bar{
+    grid-area: side-bar;
+    background: var(--darkBG);
+    border-right: .1px solid var(--tercero);
+}
+
+.container .side-bar .nav{
+    margin-top: 0px;
+}
+
+.container .side-bar .nav img{
+    padding-top: 15px;
+    margin: .5px;
+}
+
+.container .side-bar .nav a{
+    display: block;
+    line-height: 60px;
+    color: var(--lightBG);
+    margin-top: 1rem; 
+    transition: all .5s ease;
+    -webkit-transition:  all .5s ease;
+    -moz-transition:  all .5s ease;
+    -ms-transition:  all .5s ease;
+    -o-transition:  all .5s ease; 
+}
+
+.container .side-bar .nav a:hover{
+    background: var(--quinto);
+    transition: all .3s ease;
+    -webkit-transition:  all .3s ease;
+    -moz-transition:  all .3s ease;
+    -ms-transition:  all .3s ease;
+    -o-transition:  all .3s ease
+}
+
+
+.container .side-bar .nav .icon:hover,
+.container .side-bar .nav .icon:focus {
+    cursor: pointer;
+    filter: invert(0%) sepia(0%) saturate(1000%) hue-rotate(0deg) brightness(10000%) contrast(100%);
+    transition: all .1s ease;
+    -webkit-transition:  all .1s ease;
+    -moz-transition:  all .1s ease;
+    -ms-transition:  all .1s ease;
+    -o-transition:  all .1s ease
+}
