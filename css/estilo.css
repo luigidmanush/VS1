@@ -43,6 +43,34 @@ h1{
     margin-top: 1rem;
 }
 
+input{
+    font-size: 14px;
+    background: var(--headerBG);
+    margin: 0 10px;
+    padding: .5rem;
+    color: var(--segundo);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 400ms;
+
+    box-shadow: 3.5px 3.5px 7.5px var(--tercero), -2px -2px 6.5px var(--lightBG),
+    inset 2px 2px 4px rgba(209, 217, 230, 0.2),
+    inset -4px -4px 4px rgba(255, 255, 255, 0.2);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input:focus,input:hover{
+    font-size: 14px;
+    color: var(--darkBG);
+    transition: all 400ms;
+}
+
+
+
 /* CONTAINER */
 .container{
     margin: 40px;

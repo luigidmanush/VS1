@@ -19,6 +19,7 @@ section .main{
     justify-content: flex-end;
     align-items: center;
 }
+
 .container .main .search{
     display: flex;
     justify-content: flex-end;
@@ -26,6 +27,8 @@ section .main{
     margin-top: 5px;
     
 }
+
+
 
 .container .main .search .btn{
     background: var(--headerBG);
